@@ -68,7 +68,7 @@ ln -sf ${OPENSHIFT_DATA_DIR}uploads   ${OPENSHIFT_REPO_DIR}php/wp-content/
 
 # Copy the OpenShift wp-config.php file, lets do all!
 
-cp -f ${OPENSHIFT_REPO_DIR}.openshift/config/* ${dest_dir}/
+cp -rf ${OPENSHIFT_REPO_DIR}.openshift/config/* ${dest_dir}/
 
 
 # Use repository htaccess if exists 
