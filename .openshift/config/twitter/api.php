@@ -27,7 +27,7 @@ function linkify($status_text)
 }
 
 # Load Twitter class
-require_once('./twitteroauth/twitteroauth.php');
+require_once('./twitteroauth/twitteroauth/twitteroauth.php');
 
 # Define constants
 define('TWEET_LIMIT', 5);
